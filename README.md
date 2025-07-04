@@ -34,10 +34,21 @@ Each folder contains facial images under degraded environmental conditions.
 - **Metrics:** Accuracy, Precision, Recall, F1-score
 
 ---
+## Evaluation metrices:
+Classification Report:
 
+              precision    recall  f1-score   support
+
+      female       0.77      0.85      0.81        79
+        male       0.96      0.94      0.95       343
+
+    accuracy                           0.92       422
+   macro avg       0.87      0.89      0.88       422
+weighted avg       0.93      0.92      0.93       422
 ## 🔧 Environment Setup
 
 Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
+
